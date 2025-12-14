@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - secure_screen (0.1.0):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - secure_screen (from `.symlinks/plugins/secure_screen/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  secure_screen:
+    :path: ".symlinks/plugins/secure_screen/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  secure_screen: c0161cd5b06067495d8855ef07fcc772c5941d11
+
+PODFILE CHECKSUM: 4305caec6b40dde0ae97be1573c53de1882a07e5
+
+COCOAPODS: 1.16.2
