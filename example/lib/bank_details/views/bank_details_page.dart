@@ -63,32 +63,32 @@ class _BankDetailsPageState extends State<BankDetailsPage> {
                     icon: Icons.account_balance,
                   ),
                   const SizedBox(height: 16),
-                  InfoCard(
+                  const InfoCard(
                     label: 'Account Holder',
                     value: 'John Doe',
                     icon: Icons.person,
                   ),
                   const SizedBox(height: 16),
-                  InfoCard(
+                  const InfoCard(
                     label: 'Account Type',
                     value: 'Savings Account',
                     icon: Icons.account_box,
                   ),
                   const SizedBox(height: 16),
-                  InfoCard(
+                  const InfoCard(
                     label: 'Balance',
                     value: '\$12,345.67',
                     icon: Icons.account_balance_wallet,
                     color: Colors.green,
                   ),
                   const SizedBox(height: 16),
-                  InfoCard(
+                  const InfoCard(
                     label: 'IFSC Code',
                     value: 'BANK0001234',
                     icon: Icons.qr_code,
                   ),
                   const SizedBox(height: 16),
-                  InfoCard(
+                  const InfoCard(
                     label: 'Branch',
                     value: 'Main Street Branch',
                     icon: Icons.location_on,
@@ -104,17 +104,17 @@ class _BankDetailsPageState extends State<BankDetailsPage> {
                     ),
                   ),
                   const SizedBox(height: 16),
-                  TransactionItem(
+                  const TransactionItem(
                     description: 'Payment to ABC Store',
                     amount: '-\$50.00',
                     date: 'Today',
                   ),
-                  TransactionItem(
+                  const TransactionItem(
                     description: 'Salary Credit',
                     amount: '+\$5,000.00',
                     date: '2 days ago',
                   ),
-                  TransactionItem(
+                  const TransactionItem(
                     description: 'ATM Withdrawal',
                     amount: '-\$200.00',
                     date: '5 days ago',

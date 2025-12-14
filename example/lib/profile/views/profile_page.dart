@@ -43,25 +43,25 @@ class ProfilePage extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 32),
-              ProfileInfoCard(
+              const ProfileInfoCard(
                 label: 'Phone Number',
                 value: '+1 (555) 123-4567',
                 icon: Icons.phone,
               ),
               const SizedBox(height: 16),
-              ProfileInfoCard(
+              const ProfileInfoCard(
                 label: 'Date of Birth',
                 value: 'January 1, 1990',
                 icon: Icons.calendar_today,
               ),
               const SizedBox(height: 16),
-              ProfileInfoCard(
+              const ProfileInfoCard(
                 label: 'Address',
                 value: '123 Main Street, City, State 12345',
                 icon: Icons.location_on,
               ),
               const SizedBox(height: 16),
-              ProfileInfoCard(
+              const ProfileInfoCard(
                 label: 'Member Since',
                 value: 'January 2020',
                 icon: Icons.how_to_reg,
@@ -106,5 +106,3 @@ class ProfilePage extends StatelessWidget {
     );
   }
 }
-
-

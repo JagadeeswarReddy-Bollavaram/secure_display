@@ -1,4 +1,4 @@
 ## 0.1.0
 
-* Initial release of Screen Protector package.
+* Initial release of Secure Screen package.
 

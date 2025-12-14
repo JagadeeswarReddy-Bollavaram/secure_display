@@ -11,7 +11,7 @@ A Flutter package for secure screen protection including screenshot and screen r
                        DESC
   s.homepage         = 'https://bitbucket.org/ninjafactory/secure-screen'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Ninja Factory' => 'your-email@example.com' }
+  s.author           = { 'Jagadeeswar Bollavaram' => 'jagadeeswarreddy.bollavaram@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'

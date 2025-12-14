@@ -60,17 +60,17 @@ class HomePage extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Padding(
-                    padding: const EdgeInsets.all(24.0),
+                  child: const Padding(
+                    padding: EdgeInsets.all(24.0),
                     child: Row(
                       children: [
-                        const Icon(
+                        Icon(
                           Icons.code,
                           size: 48,
                           color: Colors.blue,
                         ),
-                        const SizedBox(width: 16),
-                        const Expanded(
+                        SizedBox(width: 16),
+                        Expanded(
                           child: Text(
                             'SecureScreen Class',
                             style: TextStyle(
@@ -79,7 +79,7 @@ class HomePage extends StatelessWidget {
                             ),
                           ),
                         ),
-                        const Icon(Icons.arrow_forward_ios),
+                        Icon(Icons.arrow_forward_ios),
                       ],
                     ),
                   ),
@@ -99,17 +99,17 @@ class HomePage extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Padding(
-                    padding: const EdgeInsets.all(24.0),
+                  child: const Padding(
+                    padding: EdgeInsets.all(24.0),
                     child: Row(
                       children: [
-                        const Icon(
+                        Icon(
                           Icons.settings,
                           size: 48,
                           color: Colors.green,
                         ),
-                        const SizedBox(width: 16),
-                        const Expanded(
+                        SizedBox(width: 16),
+                        Expanded(
                           child: Text(
                             'SecureScreenController',
                             style: TextStyle(
@@ -118,7 +118,7 @@ class HomePage extends StatelessWidget {
                             ),
                           ),
                         ),
-                        const Icon(Icons.arrow_forward_ios),
+                        Icon(Icons.arrow_forward_ios),
                       ],
                     ),
                   ),
@@ -136,17 +136,17 @@ class HomePage extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Padding(
-                    padding: const EdgeInsets.all(24.0),
+                  child: const Padding(
+                    padding: EdgeInsets.all(24.0),
                     child: Row(
                       children: [
-                        const Icon(
+                        Icon(
                           Icons.widgets,
                           size: 48,
                           color: Colors.purple,
                         ),
-                        const SizedBox(width: 16),
-                        const Expanded(
+                        SizedBox(width: 16),
+                        Expanded(
                           child: Text(
                             'SecureScreenWidget',
                             style: TextStyle(
@@ -155,7 +155,7 @@ class HomePage extends StatelessWidget {
                             ),
                           ),
                         ),
-                        const Icon(Icons.arrow_forward_ios),
+                        Icon(Icons.arrow_forward_ios),
                       ],
                     ),
                   ),
@@ -173,17 +173,17 @@ class HomePage extends StatelessWidget {
                       ),
                     );
                   },
-                  child: Padding(
-                    padding: const EdgeInsets.all(24.0),
+                  child: const Padding(
+                    padding: EdgeInsets.all(24.0),
                     child: Row(
                       children: [
-                        const Icon(
+                        Icon(
                           Icons.navigation,
                           size: 48,
                           color: Colors.teal,
                         ),
-                        const SizedBox(width: 16),
-                        const Expanded(
+                        SizedBox(width: 16),
+                        Expanded(
                           child: Text(
                             'Navigation Test',
                             style: TextStyle(
@@ -192,7 +192,7 @@ class HomePage extends StatelessWidget {
                             ),
                           ),
                         ),
-                        const Icon(Icons.arrow_forward_ios),
+                        Icon(Icons.arrow_forward_ios),
                       ],
                     ),
                   ),

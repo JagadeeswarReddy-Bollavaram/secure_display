@@ -179,5 +179,7 @@ See the `example` directory for a complete example app.
 
 ## License
 
-This project is private and not published to pub.dev.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2025 Jagadeeswar Bollavaram
 

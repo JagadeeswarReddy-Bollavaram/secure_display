@@ -21,8 +21,8 @@ class TransactionItem extends StatelessWidget {
       child: ListTile(
         leading: CircleAvatar(
           backgroundColor: isCredit
-              ? Colors.green.withOpacity(0.1)
-              : Colors.red.withOpacity(0.1),
+              ? Colors.green.withValues(alpha: 0.1)
+              : Colors.red.withValues(alpha: 0.1),
           child: Icon(
             isCredit ? Icons.arrow_downward : Icons.arrow_upward,
             color: isCredit ? Colors.green : Colors.red,
@@ -42,5 +42,3 @@ class TransactionItem extends StatelessWidget {
     );
   }
 }
-
-

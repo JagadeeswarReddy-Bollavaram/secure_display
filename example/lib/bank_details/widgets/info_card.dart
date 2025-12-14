@@ -26,7 +26,7 @@ class InfoCard extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(12),
               decoration: BoxDecoration(
-                color: (color ?? Colors.blue).withOpacity(0.1),
+                color: (color ?? Colors.blue).withValues(alpha: 0.1),
                 borderRadius: BorderRadius.circular(8),
               ),
               child: Icon(icon, color: color ?? Colors.blue),
@@ -61,5 +61,3 @@ class InfoCard extends StatelessWidget {
     );
   }
 }
-
-

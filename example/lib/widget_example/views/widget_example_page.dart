@@ -35,12 +35,12 @@ class WidgetExamplePage extends StatelessWidget {
                 const SizedBox(height: 16),
                 Card(
                   color: Colors.blue.shade50,
-                  child: Padding(
-                    padding: const EdgeInsets.all(16.0),
+                  child: const Padding(
+                    padding: EdgeInsets.all(16.0),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const Row(
+                        Row(
                           children: [
                             Icon(Icons.info_outline, color: Colors.blue),
                             SizedBox(width: 8),
@@ -53,21 +53,21 @@ class WidgetExamplePage extends StatelessWidget {
                             ),
                           ],
                         ),
-                        const SizedBox(height: 12),
-                        const Text(
+                        SizedBox(height: 12),
+                        Text(
                           'This page uses SecureScreenWidget which automatically:',
                           style: TextStyle(fontSize: 14),
                         ),
-                        const SizedBox(height: 8),
-                        const Text(
+                        SizedBox(height: 8),
+                        Text(
                           '• Activates screen restriction when the widget is mounted',
                           style: TextStyle(fontSize: 14),
                         ),
-                        const Text(
+                        Text(
                           '• Disposes restriction when the widget is removed',
                           style: TextStyle(fontSize: 14),
                         ),
-                        const Text(
+                        Text(
                           '• No manual lifecycle management needed!',
                           style: TextStyle(fontSize: 14),
                         ),
@@ -91,32 +91,32 @@ class WidgetExamplePage extends StatelessWidget {
                   icon: Icons.account_balance,
                 ),
                 const SizedBox(height: 16),
-                InfoCard(
+                const InfoCard(
                   label: 'Account Holder',
                   value: 'Alice Johnson',
                   icon: Icons.person,
                 ),
                 const SizedBox(height: 16),
-                InfoCard(
+                const InfoCard(
                   label: 'Account Type',
                   value: 'Premium Savings',
                   icon: Icons.account_box,
                 ),
                 const SizedBox(height: 16),
-                InfoCard(
+                const InfoCard(
                   label: 'Balance',
                   value: '\$50,123.45',
                   icon: Icons.account_balance_wallet,
                   color: Colors.green,
                 ),
                 const SizedBox(height: 16),
-                InfoCard(
+                const InfoCard(
                   label: 'IFSC Code',
                   value: 'BANK0009999',
                   icon: Icons.qr_code,
                 ),
                 const SizedBox(height: 16),
-                InfoCard(
+                const InfoCard(
                   label: 'Branch',
                   value: 'Central Plaza Branch',
                   icon: Icons.location_on,
@@ -132,17 +132,17 @@ class WidgetExamplePage extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 16),
-                TransactionItem(
+                const TransactionItem(
                   description: 'Investment Deposit',
                   amount: '+\$10,000.00',
                   date: 'Today',
                 ),
-                TransactionItem(
+                const TransactionItem(
                   description: 'Online Transfer',
                   amount: '-\$500.00',
                   date: 'Yesterday',
                 ),
-                TransactionItem(
+                const TransactionItem(
                   description: 'Interest Credit',
                   amount: '+\$250.75',
                   date: '3 days ago',

@@ -406,4 +406,3 @@ public class SecureScreenPlugin: NSObject, FlutterPlugin {
     }
 }
 
-/// reference: https://stackoverflow.com/questions/77151044/how-to-prevent-user-from-taking-screenshot-or-screen-recording-in-ios-17

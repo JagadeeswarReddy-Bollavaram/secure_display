@@ -50,32 +50,32 @@ class ControllerExamplePage extends GetView<ControllerExampleController> {
                   icon: Icons.account_balance,
                 ),
                 const SizedBox(height: 16),
-                InfoCard(
+                const InfoCard(
                   label: 'Account Holder',
                   value: 'Jane Smith',
                   icon: Icons.person,
                 ),
                 const SizedBox(height: 16),
-                InfoCard(
+                const InfoCard(
                   label: 'Account Type',
                   value: 'Current Account',
                   icon: Icons.account_box,
                 ),
                 const SizedBox(height: 16),
-                InfoCard(
+                const InfoCard(
                   label: 'Balance',
                   value: '\$25,678.90',
                   icon: Icons.account_balance_wallet,
                   color: Colors.green,
                 ),
                 const SizedBox(height: 16),
-                InfoCard(
+                const InfoCard(
                   label: 'IFSC Code',
                   value: 'BANK0005678',
                   icon: Icons.qr_code,
                 ),
                 const SizedBox(height: 16),
-                InfoCard(
+                const InfoCard(
                   label: 'Branch',
                   value: 'Downtown Branch',
                   icon: Icons.location_on,
@@ -91,17 +91,17 @@ class ControllerExamplePage extends GetView<ControllerExampleController> {
                   ),
                 ),
                 const SizedBox(height: 16),
-                TransactionItem(
+                const TransactionItem(
                   description: 'Online Purchase',
                   amount: '-\$125.50',
                   date: 'Yesterday',
                 ),
-                TransactionItem(
+                const TransactionItem(
                   description: 'Interest Credit',
                   amount: '+\$45.20',
                   date: '3 days ago',
                 ),
-                TransactionItem(
+                const TransactionItem(
                   description: 'Bill Payment',
                   amount: '-\$89.99',
                   date: '1 week ago',

@@ -55,7 +55,7 @@ class ProtectionStatusCard extends StatelessWidget {
                   Text(
                     'Screenshots and screen recording are disabled',
                     style: TextStyle(
-                      color: Colors.white.withOpacity(0.9),
+                      color: Colors.white.withValues(alpha: 0.9),
                       fontSize: 12,
                     ),
                   ),
@@ -68,5 +68,3 @@ class ProtectionStatusCard extends StatelessWidget {
     );
   }
 }
-
-

@@ -43,49 +43,49 @@ class NavigationTestPage extends StatelessWidget {
                 const SizedBox(height: 48),
                 Card(
                   color: Colors.blue.shade50,
-                  child: Padding(
-                    padding: const EdgeInsets.all(16.0),
+                  child: const Padding(
+                    padding: EdgeInsets.all(16.0),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const Text(
+                        Text(
                           'Navigation Behavior:',
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        const SizedBox(height: 12),
-                        const Text(
+                        SizedBox(height: 12),
+                        Text(
                           '• Using Navigator.push():',
                           style: TextStyle(fontWeight: FontWeight.bold),
                         ),
-                        const Text(
+                        Text(
                           '  - This page stays in widget tree',
                           style: TextStyle(fontSize: 14),
                         ),
-                        const Text(
+                        Text(
                           '  - SecureScreenWidget remains mounted',
                           style: TextStyle(fontSize: 14),
                         ),
-                        const Text(
+                        Text(
                           '  - Restriction stays ACTIVE on new page',
                           style: TextStyle(fontSize: 14, color: Colors.green),
                         ),
-                        const SizedBox(height: 12),
-                        const Text(
+                        SizedBox(height: 12),
+                        Text(
                           '• Using Navigator.pushReplacement():',
                           style: TextStyle(fontWeight: FontWeight.bold),
                         ),
-                        const Text(
+                        Text(
                           '  - This page is removed from tree',
                           style: TextStyle(fontSize: 14),
                         ),
-                        const Text(
+                        Text(
                           '  - SecureScreenWidget is disposed',
                           style: TextStyle(fontSize: 14),
                         ),
-                        const Text(
+                        Text(
                           '  - Restriction is REMOVED on new page',
                           style: TextStyle(fontSize: 14, color: Colors.red),
                         ),
@@ -197,23 +197,23 @@ class NextPageWithoutWidget extends StatelessWidget {
               const SizedBox(height: 16),
               Card(
                 color: Colors.orange.shade50,
-                child: Padding(
-                  padding: const EdgeInsets.all(16.0),
+                child: const Padding(
+                  padding: EdgeInsets.all(16.0),
                   child: Column(
                     children: [
-                      const Text(
+                      Text(
                         'Screen Restriction Status:',
                         style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      const SizedBox(height: 12),
-                      const Text(
+                      SizedBox(height: 12),
+                      Text(
                         'If you navigated with push():',
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
-                      const Text(
+                      Text(
                         '→ Restriction is STILL ACTIVE',
                         style: TextStyle(
                           fontSize: 16,
@@ -221,12 +221,12 @@ class NextPageWithoutWidget extends StatelessWidget {
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      const SizedBox(height: 12),
-                      const Text(
+                      SizedBox(height: 12),
+                      Text(
                         'If you navigated with pushReplacement():',
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
-                      const Text(
+                      Text(
                         '→ Restriction is REMOVED',
                         style: TextStyle(
                           fontSize: 16,
@@ -293,19 +293,19 @@ class NextPageWithWidget extends StatelessWidget {
                 const SizedBox(height: 32),
                 Card(
                   color: Colors.blue.shade50,
-                  child: Padding(
-                    padding: const EdgeInsets.all(16.0),
+                  child: const Padding(
+                    padding: EdgeInsets.all(16.0),
                     child: Column(
                       children: [
-                        const Text(
+                        Text(
                           'Best Practice:',
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        const SizedBox(height: 12),
-                        const Text(
+                        SizedBox(height: 12),
+                        Text(
                           'Each secure page should have its own SecureScreenWidget to ensure protection regardless of navigation method.',
                           textAlign: TextAlign.center,
                           style: TextStyle(fontSize: 14),
