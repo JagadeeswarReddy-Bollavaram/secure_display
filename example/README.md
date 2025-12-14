@@ -1,6 +1,6 @@
-# Secure Screen Example
+# Secure Display Example
 
-This is an example Flutter app demonstrating how to use the `secure_screen` package.
+This is an example Flutter app demonstrating how to use the `secure_display` package.
 
 ## Running the Example
 

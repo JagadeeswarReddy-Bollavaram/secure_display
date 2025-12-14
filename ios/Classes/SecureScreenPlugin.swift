@@ -40,7 +40,7 @@ public class SecureScreenPlugin: NSObject, FlutterPlugin {
     
     public static func register(with registrar: FlutterPluginRegistrar) {
         let channel = FlutterMethodChannel(
-            name: "secure_screen/screen_secure",
+            name: "secure_display/screen_secure",
             binaryMessenger: registrar.messenger()
         )
         let instance = SecureScreenPlugin()

@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:secure_screen/secure_screen.dart';
+import 'package:secure_display/secure_display.dart';
 
 void main() {
   group('SecureScreen', () {

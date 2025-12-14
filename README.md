@@ -1,4 +1,4 @@
-# Secure Screen
+# Secure Display
 
 A Flutter package for secure screen protection with screenshot and screen recording prevention.
 
@@ -12,7 +12,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  secure_screen:
+  secure_display:
     path: ../secure-screen
 ```
 
@@ -20,13 +20,13 @@ Or if published:
 
 ```yaml
 dependencies:
-  secure_screen: ^0.1.0
+  secure_display: ^0.1.0
 ```
 
 ### Usage
 
 ```dart
-import 'package:secure_screen/secure_screen.dart';
+import 'package:secure_display/secure_display.dart';
 ```
 
 ## Features
@@ -38,7 +38,7 @@ The `SecureScreen` prevents screen recording and screenshots on both iOS and And
 #### Basic Usage
 
 ```dart
-import 'package:secure_screen/secure_screen.dart';
+import 'package:secure_display/secure_display.dart';
 
 class SecureScreen extends StatefulWidget {
   @override
@@ -93,7 +93,7 @@ The `SecureScreenController` extends `GetxController` and automatically manages 
 
 ```dart
 import 'package:get/get.dart';
-import 'package:secure_screen/secure_screen.dart';
+import 'package:secure_display/secure_display.dart';
 
 // Put the controller (automatically activates screen protection)
 Get.put(SecureScreenController());
@@ -113,7 +113,7 @@ The `SecureScreenWidget` is a declarative widget that automatically manages scre
 #### Usage
 
 ```dart
-import 'package:secure_screen/secure_screen.dart';
+import 'package:secure_display/secure_display.dart';
 
 class MySecurePage extends StatelessWidget {
   @override

@@ -1,4 +1,4 @@
-package com.ninjafactory.secure_screen
+package com.ninjafactory.secure_display
 
 import android.app.Activity
 import android.view.WindowManager
@@ -18,7 +18,7 @@ class SecureScreenPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
     private var isRestricted: Boolean = false
 
     override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-        channel = MethodChannel(flutterPluginBinding.binaryMessenger, "secure_screen/screen_secure")
+        channel = MethodChannel(flutterPluginBinding.binaryMessenger, "secure_display/screen_secure")
         channel.setMethodCallHandler(this)
     }
 

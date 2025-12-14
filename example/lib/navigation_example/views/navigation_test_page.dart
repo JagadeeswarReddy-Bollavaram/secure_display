@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:secure_screen/secure_screen.dart';
+import 'package:secure_display/secure_display.dart';
 
 /// Navigation Test Page - Demonstrates how SecureScreenWidget behaves during navigation
 class NavigationTestPage extends StatelessWidget {

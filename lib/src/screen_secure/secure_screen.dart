@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 
 class SecureScreen {
   static const MethodChannel _channel = MethodChannel(
-    'secure_screen/screen_secure',
+    'secure_display/screen_secure',
   );
   bool _isRestricted = false;
 

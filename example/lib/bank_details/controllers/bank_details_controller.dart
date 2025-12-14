@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:secure_screen/secure_screen.dart';
+import 'package:secure_display/secure_display.dart';
 
 /// Controller for Bank Details Page
 class BankDetailsController {

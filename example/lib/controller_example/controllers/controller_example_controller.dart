@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:secure_screen/secure_screen.dart';
+import 'package:secure_display/secure_display.dart';
 
 /// Controller for Controller Example Page
 class ControllerExampleController extends GetxController {

@@ -1,4 +1,4 @@
-name: secure_screen
+name: secure_display
 description: A Flutter package for secure screen protection (screenshot and screen recording prevention).
 version: 0.1.0
 homepage: https://bitbucket.org/ninjafactory/secure-screen
@@ -18,7 +18,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.ninjafactory.secure_screen
+        package: com.ninjafactory.secure_display
         pluginClass: SecureScreenPlugin
       ios:
         pluginClass: SecureScreenPlugin

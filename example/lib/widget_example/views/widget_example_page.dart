@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:secure_screen/secure_screen.dart';
+import 'package:secure_display/secure_display.dart';
 import '../../bank_details/widgets/info_card.dart';
 import '../../bank_details/widgets/protection_status_card.dart';
 import '../../bank_details/widgets/transaction_item.dart';
