@@ -6,6 +6,21 @@ A Flutter package for secure screen protection with screenshot and screen record
 
 This package provides widgets and utilities for preventing screenshots and screen recording in Flutter applications.
 
+### Installation
+
+Add this to your package's `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  secure_display: ^0.1.1
+```
+
+Then run:
+
+```bash
+flutter pub get
+```
+
 ### Usage
 
 ```dart
