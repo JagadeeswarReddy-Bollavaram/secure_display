@@ -6,23 +6,6 @@ A Flutter package for secure screen protection with screenshot and screen record
 
 This package provides widgets and utilities for preventing screenshots and screen recording in Flutter applications.
 
-### Installation
-
-Add this to your package's `pubspec.yaml` file:
-
-```yaml
-dependencies:
-  secure_display:
-    path: ../secure-screen
-```
-
-Or if published:
-
-```yaml
-dependencies:
-  secure_display: ^0.1.0
-```
-
 ### Usage
 
 ```dart
@@ -35,17 +18,29 @@ import 'package:secure_display/secure_display.dart';
 
 The `SecureScreen` prevents screen recording and screenshots on both iOS and Android when active.
 
+#### Manual Control
+
+```dart
+final secureScreen = SecureScreen();
+
+// Activate screen protection
+await secureScreen.activate();
+
+// Later, dispose to automatically unrestrict
+await secureScreen.dispose();
+```
+
 #### Basic Usage
 
 ```dart
 import 'package:secure_display/secure_display.dart';
 
-class SecureScreen extends StatefulWidget {
+class MySecureScreen extends StatefulWidget {
   @override
-  _SecureScreenState createState() => _SecureScreenState();
+  _MySecureScreenState createState() => _MySecureScreenState();
 }
 
-class _SecureScreenState extends State<SecureScreen> {
+class _MySecureScreenState extends State<MySecureScreen> {
   late SecureScreen _secureScreen;
 
   @override
@@ -72,40 +67,6 @@ class _SecureScreenState extends State<SecureScreen> {
   }
 }
 ```
-
-#### Manual Control
-
-```dart
-final secureScreen = SecureScreen();
-
-// Activate screen protection
-await secureScreen.activate();
-
-// Later, dispose to automatically unrestrict
-await secureScreen.dispose();
-```
-
-### Secure Screen Controller (GetX)
-
-The `SecureScreenController` extends `GetxController` and automatically manages screen security lifecycle when used with GetX dependency injection.
-
-#### Usage with GetX
-
-```dart
-import 'package:get/get.dart';
-import 'package:secure_display/secure_display.dart';
-
-// Put the controller (automatically activates screen protection)
-Get.put(SecureScreenController());
-
-// Use it anywhere in your app
-final controller = Get.find<SecureScreenController>();
-print(controller.isSecure); // true
-
-// Delete when done (automatically deactivates screen protection)
-Get.delete<SecureScreenController>();
-```
-
 ### Secure Screen Widget
 
 The `SecureScreenWidget` is a declarative widget that automatically manages screen restriction lifecycle. When the widget is in the widget tree, screen restriction is active. When removed, it's automatically disposed. No manual lifecycle management needed!
@@ -128,6 +89,27 @@ class MySecurePage extends StatelessWidget {
     );
   }
 }
+```
+
+### Secure Screen Controller (GetX)
+
+The `SecureScreenController` extends `GetxController` and automatically manages screen security lifecycle when used with GetX dependency injection.
+
+#### Usage with GetX
+
+```dart
+import 'package:get/get.dart';
+import 'package:secure_display/secure_display.dart';
+
+// Put the controller (automatically activates screen protection)
+Get.put(SecureScreenController());
+
+// Use it anywhere in your app
+final controller = Get.find<SecureScreenController>();
+print(controller.isSecure); // true
+
+// Delete when done (automatically deactivates screen protection)
+Get.delete<SecureScreenController>();
 ```
 
 #### With Optional Blur
